@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@800&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
+	<title>To-Do List</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="input-section">
+      <input id="taskInput" type="text" placeholder="Enter a task...">
+      <select id="prioritySelect">
+        <option value="low">Low Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="high">High Priority</option>
+      </select>
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="dojss.js"></script>
+</body>
+</html>
